@@ -1,0 +1,29 @@
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 500;
+    font-size: larger;
+    background-color: #ed8439;
+    color: white;
+}
+.navbar-container a{
+    text-decoration: none;
+    padding: 10px 15px;
+    color: white;
+}
+.navbar-container a:hover{
+    color: #ed8439;
+    background-color: whitesmoke;
+    border-radius: 3px 3px 15px 15px;
+    font-weight: 540;
+}
+.nav-items{
+
+}

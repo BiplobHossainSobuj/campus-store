@@ -22,8 +22,18 @@
     color: #ed8439;
     background-color: whitesmoke;
     border-radius: 3px 3px 15px 15px;
-    font-weight: 540;
+    font-weight: 550;
 }
 .nav-items{
+    
+}
 
+/* smaller devices  */
+@media screen and (max-width: 576px) {
+    .navbar-container{
+        flex-direction: column;
+        row-gap: 3px;
+        padding-bottom: 5px;
+    }
+    
 }

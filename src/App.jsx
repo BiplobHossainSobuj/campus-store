@@ -12,8 +12,8 @@ function App() {
   return (
     <>
       <Header></Header>
-      <Hotdeal></Hotdeal>
       <PopularCategories></PopularCategories>
+      <Hotdeal></Hotdeal>
     </>
   )
 }

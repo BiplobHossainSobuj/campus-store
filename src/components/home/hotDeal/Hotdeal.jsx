@@ -4,9 +4,9 @@ import Products from '../Products/products';
 
 const Hotdeal = () => {
     return (
-        <div className='container mx-auto my-24'>
-            <div className='flex  justify-between'>
-                <h1 className='text-6xl font-bold'>Flash Deal</h1>
+        <div className='container place-content-center mx-auto my-24'>
+            <div className='md:flex lg:flex justify-center lg:justify-between mx-auto'>
+                <h1 className='lg:text-6xl text-4xl font-bold'>Flash Deal</h1>
                 <Countdown></Countdown>
             </div>
             <div>

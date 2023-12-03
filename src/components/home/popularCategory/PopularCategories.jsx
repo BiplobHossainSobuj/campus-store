@@ -7,7 +7,7 @@ import stationary from '../../../../public/images/stationary.jpg'
 
 const PopularCategories = () => {
     return (
-        <div className='container mx-auto grid grid-cols-4 mb-10 gap-10 place-items-center'>
+        <div className='container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mb-10 gap-10 place-items-center'>
             <PopularCategory categoryName='Vegetable' image={vagetable}></PopularCategory>
             <PopularCategory categoryName='Fruits' image={fruit}></PopularCategory>
             <PopularCategory categoryName='Fish' image={fish}></PopularCategory>

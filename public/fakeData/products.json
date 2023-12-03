@@ -1,0 +1,142 @@
+[
+    {
+        "category": "Grocery",
+        "name": "Rice",
+        "price": 1.5,
+        "quantity": 10,
+        "image": "https://img.freepik.com/free-photo/sack-rice-seed-with-white-rice-small-wooden-spoon-rice-plant_1150-35744.jpg?w=1380&t=st=1701573665~exp=1701574265~hmac=efa98a4a1ad2b4bdd9a821361a6ba956cdd17b6abaf64ce6b39e0b336f39bae9"
+    },
+    {
+        "category": "Grocery",
+        "name": "Sugar",
+        "price": 1.5,
+        "quantity": 10,
+        "image": "https://images.pexels.com/photos/19123122/pexels-photo-19123122/free-photo-of-studio-shoot-of-brown-sugar-on-wooden-spoon-and-in-a-wooden-bowl.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "category": "Grocery",
+        "name": "Oil",
+        "price": 1.5,
+        "quantity": 10,
+        "image": "https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "category": "Grocery",
+        "name": "Cucumber",
+        "price": 1.5,
+        "quantity": 10,
+        "image": "https://img.freepik.com/free-photo/fresh-cucumbers-sliced-dark-background_1150-45029.jpg?w=1380&t=st=1701574509~exp=1701575109~hmac=463f2ac987fe20e5955b8f2a360d4bc63e9f3c7e90c10ef243382a88201232fb"
+    },
+    {
+        "category": "Vegetable",
+        "name": "Carrot",
+        "price": 1.5,
+        "quantity": 10,
+        "image": "https://images.pexels.com/photos/143133/pexels-photo-143133.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "category": "Vegetable",
+        "name": "Broccoli",
+        "price": 2.0,
+        "quantity": 8,
+        "image": "https://images.pexels.com/photos/47347/broccoli-vegetable-food-healthy-47347.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "category": "Vegetable",
+        "name": "Tomato",
+        "price": 1.0,
+        "quantity": 15,
+        "image": "https://images.pexels.com/photos/1367242/pexels-photo-1367242.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "category": "Vegetable",
+        "name": "Beef",
+        "price": 1.8,
+        "quantity": 12,
+        "image": "https://images.pexels.com/photos/65175/pexels-photo-65175.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "category": "Fish",
+        "name": "Salmon",
+        "price": 8.99,
+        "quantity": 5,
+        "image": "https://img.freepik.com/free-photo/pieces-raw-steak-from-fresh-salmon-lying-ice-counter_169016-36752.jpg?w=1380&t=st=1701574455~exp=1701575055~hmac=96e873c7e017c18a4207a94f209c2ff24f22d2f76f93804f54db069e6aa6ec93"
+    },
+    {
+        "category": "Fish",
+        "name": "Tilapia",
+        "price": 5.99,
+        "quantity": 7,
+        "image": "https://images.pexels.com/photos/8352786/pexels-photo-8352786.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "category": "Fish",
+        "name": "Shrimp",
+        "price": 12.99,
+        "quantity": 3,
+        "image": "https://images.pexels.com/photos/11119097/pexels-photo-11119097.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "category": "Meat",
+        "name": "Chicken",
+        "price": 7.49,
+        "quantity": 6,
+        "image": "https://images.pexels.com/photos/616354/pexels-photo-616354.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "category": "Fruit",
+        "name": "Apple",
+        "price": 0.75,
+        "quantity": 12,
+        "image": "https://images.pexels.com/photos/206959/pexels-photo-206959.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "category": "Fruit",
+        "name": "Banana",
+        "price": 0.5,
+        "quantity": 15,
+        "image": "https://images.pexels.com/photos/2316466/pexels-photo-2316466.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "category": "Fruit",
+        "name": "Orange",
+        "price": 0.9,
+        "quantity": 10,
+        "image": "https://images.pexels.com/photos/1738520/pexels-photo-1738520.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "category": "Fruit",
+        "name": "Chocolate",
+        "price": 2.5,
+        "quantity": 8,
+        "image": "https://images.pexels.com/photos/33715/cake-pops-pastries-cake-sweet.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "category": "Stationary",
+        "name": "Notebook",
+        "price": 3.49,
+        "quantity": 20,
+        "image": "https://images.pexels.com/photos/1166636/pexels-photo-1166636.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "category": "Stationary",
+        "name": "Pencil Set",
+        "price": 1.99,
+        "quantity": 25,
+        "image": "https://images.pexels.com/photos/7256935/pexels-photo-7256935.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "category": "Others",
+        "name": "Ice Cream",
+        "price": 0.99,
+        "quantity": 30,
+        "image": "https://images.pexels.com/photos/461189/pexels-photo-461189.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "category": "Bevarage",
+        "name": "Pepsi",
+        "price": 4.49,
+        "quantity": 15,
+        "image": "https://images.pexels.com/photos/9195177/pexels-photo-9195177.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }
+]

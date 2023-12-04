@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCartShopping, faMagnifyingGlass, faShop, faUser,faSearch } from '@fortawesome/free-solid-svg-icons';
+import { faCartShopping, faMagnifyingGlass, faShop, faUser, faSearch } from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => {
     return (
@@ -30,26 +30,9 @@ const Header = () => {
                         </div>
                         <a className=" normal-case text-xl md:block lg:block hidden"><FontAwesomeIcon icon={faShop} />Diu Campus Store</a>
                     </div>
-                    {/* <div className="navbar-center hidden lg:flex">
-                        <ul className="menu menu-horizontal px-1 space-x-2 text-base">
-                            <li><a>Home</a></li>
-                            <li tabIndex={0}>
-                                <details>
-                                    <summary>Category</summary>
-                                    <ul className="p-2 z-10">
-                                        <li><a>Grocery</a></li>
-                                        <li><a>Fruits</a></li>
-                                        <li><a>Foods</a></li>
-                                    </ul>
-                                </details>
-                            </li>
-                            <li><a>Service</a></li>
-                            <li><a>Contact</a></li>
-                            <li><a>About us</a></li>
-                        </ul>
-                    </div> */}
+
                     <div className="navbar-center">
-                    <input type="text" placeholder="Search your product here" className="input input-bordered input-accent text-center w-[200px] lg:w-[800px]" /><FontAwesomeIcon icon={faSearch} />
+                        <input type="text" placeholder="Search your product here" className="input input-bordered input-accent text-center w-[200px] lg:w-[800px]" /><FontAwesomeIcon icon={faSearch} />
                     </div>
                     {/* navbar icons carts and profile container  */}
                     <div className="navbar-end">
@@ -58,15 +41,19 @@ const Header = () => {
                                 <label tabIndex={0} className="btn btn-ghost btn-circle">
                                     <div className="indicator">
                                         <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" /></svg>
-                                        <span className="badge badge-sm indicator-item">0</span>
+                                        <span id='item-badge' className="badge badge-sm indicator-item">0</span>
                                     </div>
                                 </label>
                                 <div tabIndex={0} className="mt-3 z-[1] card card-compact dropdown-content w-52 bg-base-100 shadow">
                                     <div className="card-body">
-                                        <span className="font-bold text-lg">8 Items</span>
-                                        <span className="text-info">Subtotal: $999</span>
+                                        <span id='items' className="font-bold text-lg">Your Items</span>
+                                        <div id='cart-container'>
+
+                                        </div>
+                                        <p className="text-info">Subtotal: $<span id='price-total'>00</span></p>
+
                                         <div className="card-actions">
-                                            <button className="btn btn-primary btn-block">View cart</button>
+                                            <button className="btn btn-warning btn-block">Checkout</button>
                                         </div>
                                     </div>
                                 </div>
@@ -74,7 +61,7 @@ const Header = () => {
                             <div className="dropdown dropdown-end">
                                 <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                                     <div className="w-10 rounded-full">
-                                        <img src="../../../images/carosel1.jpg" />
+                                        <img src="/images/carosel1.jpg" />
                                     </div>
                                 </label>
                                 <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
@@ -95,7 +82,7 @@ const Header = () => {
             <div className="container mx-auto my-20  rounded-lg">
                 <div className="carousel w-full rounded-lg">
                     <div id="slide1" className="carousel-item relative w-full ">
-                        <div className="hero rounded-lg h-[650px]" style={{ backgroundImage: 'url(../../../../public/images/grocery1.jpg)' }}>
+                        <div className="hero rounded-lg h-[650px]" style={{ backgroundImage: 'url(/images/grocery1.jpg)' }}>
                             <div className="hero-overlay bg-opacity-30"></div>
                             <div className="hero-content text-center text-neutral-content">
                                 <div className="max-w-md">
@@ -111,7 +98,7 @@ const Header = () => {
                         </div>
                     </div>
                     <div id="slide2" className="carousel-item relative w-full">
-                        <div className="hero  h-[650px]" style={{ backgroundImage: 'url(../../../../public/images/slider2.jpg)' }}>
+                        <div className="hero  h-[650px]" style={{ backgroundImage: 'url(/images/slider2.jpg)' }}>
                             <div className="hero-overlay bg-opacity-30"></div>
                             <div className="hero-content text-center text-neutral-content">
                                 <div className="max-w-md">
@@ -127,7 +114,7 @@ const Header = () => {
                         </div>
                     </div>
                     <div id="slide3" className="carousel-item relative w-full">
-                        <div className="hero  h-[650px]" style={{ backgroundImage: 'url(../../../../public/images/slider3.jpg)' }}>
+                        <div className="hero  h-[650px]" style={{ backgroundImage: 'url(/images/slider3.jpg)' }}>
                             <div className="hero-overlay bg-opacity-60"></div>
                             <div className="hero-content text-center text-neutral-content">
                                 <div className="max-w-md">
@@ -143,13 +130,13 @@ const Header = () => {
                         </div>
                     </div>
                     <div id="slide4" className="carousel-item relative w-full">
-                        <div className="hero  h-[650px]" style={{ backgroundImage: 'url(../../../../public/images/slider4.jpg)' }}>
+                        <div className="hero  h-[650px]" style={{ backgroundImage: 'url(/images/slider4.jpg)' }}>
                             <div className="hero-overlay bg-opacity-40"></div>
                             <div className="hero-content text-center text-neutral-content">
                                 <div className="max-w-md">
                                     <h1 className="mb-5 text-5xl font-bold">Always Keep Your <span className='text-yellow-300'>Stationary </span>Closer</h1>
-                                        <p className="mb-5 text-xl">The store are like treasure hunts, you never know what you’ll find.All your need meets here.</p>
-                                        <button className="btn bg-orange-300">Shop Now</button>
+                                    <p className="mb-5 text-xl">The store are like treasure hunts, you never know what you’ll find.All your need meets here.</p>
+                                    <button className="btn bg-orange-300">Shop Now</button>
                                 </div>
                             </div>
                         </div>

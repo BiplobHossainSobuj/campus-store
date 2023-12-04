@@ -1,9 +1,9 @@
 import React from 'react';
 import PopularCategory from './PopularCategory';
-import vagetable from '../../../../public/images/vagetable.jpg'
-import fruit from '../../../../public/images/fruits.jpg'
-import fish from '../../../../public/images/fish.jpg'
-import stationary from '../../../../public/images/stationary.jpg'
+import vagetable from '/images/vagetable.jpg'
+import fruit from '/images/fruits.jpg'
+import fish from '/images/fish.jpg'
+import stationary from '/images/stationary.jpg'
 
 const PopularCategories = () => {
     return (
